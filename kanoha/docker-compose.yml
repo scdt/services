@@ -1,0 +1,9 @@
+version: "2"
+services:
+  kanoha:
+    build: .
+    restart: always
+    volumes:
+      - ./data/:/data/
+    ports:
+      - "2505:2505"

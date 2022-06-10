@@ -1,0 +1,4 @@
+prettytable>=0.7.2
+sqlitedict>=2.0.0
+asyncio>=3.4.3
+datetime>=4.4
